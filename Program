@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int r;
+    int g;
+    int b;
+    
+    cout<<"Codul culorilor"<<endl;
+    cin>>r>>g>>b;
+
+    cout<<"Codul culorilor opuse"<<endl;
+    cout<<255 - r<<" "<<255- g<<" "<<255 - b<<endl;
+
+    return 0;
+}
